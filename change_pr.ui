@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>add_product</class>
+ <widget class="QWidget" name="add_product">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>475</width>
+    <height>313</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>добавить продукт</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>20</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Редактировать мебель&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_back_change">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>280</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #67BA80</string>
+   </property>
+   <property name="text">
+    <string>назад</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_name_furniture">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #F4E8D3 </string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>введите имя</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_material">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>80</y>
+     <width>181</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #F4E8D3 </string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_min_price">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>120</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #F4E8D3 </string>
+   </property>
+   <property name="placeholderText">
+    <string>введите мин цену</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_description">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>200</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #F4E8D3 </string>
+   </property>
+   <property name="placeholderText">
+    <string>введите описание</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_article">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>160</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #F4E8D3 </string>
+   </property>
+   <property name="placeholderText">
+    <string>введите артикул</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_change_products">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>260</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #67BA80</string>
+   </property>
+   <property name="text">
+    <string>редактировать</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_model">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>120</y>
+     <width>181</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #F4E8D3 </string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_type_product">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>160</y>
+     <width>181</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #F4E8D3 </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_delete_products">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>260</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #67BA80</string>
+   </property>
+   <property name="text">
+    <string>удалить</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
