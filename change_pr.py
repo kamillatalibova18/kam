@@ -9,7 +9,7 @@
 from PyQt6 import QtCore, QtGui, QtWidgets
 
 
-class Ui_add_product(object):
+class Ui_change_product(object):
     def setupUi(self, add_product):
         add_product.setObjectName("add_product")
         add_product.resize(475, 313)
